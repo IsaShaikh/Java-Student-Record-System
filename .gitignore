@@ -1,0 +1,39 @@
+# To ignore unnecessary files in a Java project 
+
+
+# Ignore IDE specific folders
+.idea/
+*.iml
+*.iws
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore compiled output directories
+out/
+target/
+build/
+
+# Ignore VSCode settings if using
+.vscode/
+
+# Ignore environment files
+.env
+
+# Ignore IntelliJ workspace files
+*.ipr
+
+# Optional: Ignore personal notes or drafts
+notes.txt
+*.md.bak
